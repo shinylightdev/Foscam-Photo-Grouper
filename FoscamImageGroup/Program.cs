@@ -6,7 +6,14 @@ namespace FoscamImageGroup
 {
   class FoscamImage
   {
+    /// <summary>
+    /// Absolute path to the file.
+    /// </summary>
     public string ImagePath { get; set; }
+
+    /// <summary>
+    /// Last time file got modified.
+    /// </summary>
     public DateTime LastModified { get; set; }
   }
 
